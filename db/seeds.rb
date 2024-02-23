@@ -16,3 +16,13 @@ admin = User.create!(
     role: "admin",
     status: "approved"
   )   
+
+  trader = User.create!(
+    email: "trader@sample.com",
+    password: "password",
+    password_confirmation: "password",
+    first_name: "Trader",
+    last_name: "Sample",
+    role: "trader",
+    status: "approved"
+  )    
