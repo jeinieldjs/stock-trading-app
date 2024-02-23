@@ -100,7 +100,7 @@ Rails.application.configure do
   port:            587,
   domain:          'google.com',
   user_name:       ENV.fetch('GMAILACCT'),
-  password:        ENV.fetch('GMAIPASSWORD'),
+  password:        ENV.fetch('GMAILPASSWORD'),
   authentication:  'plain',
   enable_starttls: true,
   open_timeout:    5,
